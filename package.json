@@ -1,11 +1,26 @@
 {
   "name": "next-level-week",
-  "scripts": {
-    "start": "nodemon src/server.js"
-  },
+  "version": "1.0.0",
+  "description": "Repositório para o projeto feito na NLW.",
   "dependencies": {
     "express": "^4.17.1",
-    "nunjucks": "^3.2.2",
-    "nodemon": "^2.0.4"
-  }
+    "nodemon": "^2.0.4",
+    "nunjucks": "^3.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielmteixeira/next-level-week.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielmteixeira/next-level-week/issues"
+  },
+  "homepage": "https://github.com/gabrielmteixeira/next-level-week#readme"
 }
